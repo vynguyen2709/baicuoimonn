@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+
+:root {
+  --primary-color: #945336;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Signika", sans-serif;
+}
+
+.logo {
+  width: 100px;
+	height: auto
+}
+.text-do{
+	color: darkred
+}
+
+nav ul.nav {
+  list-style-type: none;
+}
+
+nav ul.nav li {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.functions img {
+  width: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.product {
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+}
+
+.product .controls img {
+  background-color: var(--primary-color);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.product .controls {
+  display: none;
+}
+
+.product:hover .controls {
+  display: block;
+}
+
+.text-color-primary {
+  color: var(--primary-color);
+}
+
+.product-feature {
+  background-image: url("../images/bg2.png");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+}
+
+/* .product-feature .title {
+  border-bottom: 2px solid var(--primary-color);
+} */
+
+.feature {
+  padding: 2rem 4rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+	color: aliceblue
+}
+
+.blog-desc {
+  max-width: 500px;
+  margin: 4px auto;
+}
+
+.footer {
+  background-image: url("../images/Banner2.png");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  backdrop-filter: blur(3px);
+}
+
+.ip-contact {
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+.btn-contact {
+  width: fit-content;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color);
+  opacity: 0.9;
+}
